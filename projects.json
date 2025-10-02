@@ -1,0 +1,211 @@
+{
+    "theater productions, directing": [
+      {
+        "title": "Theater Title 1",
+        "thumbnail":"assets/Image placeholder.png",
+        "criteria": [
+          "Criteria 1",
+          "Criteria 2",
+          "Criteria 3"
+        ]
+      },
+      {
+        "title": "Theater Title 2",
+        "thumbnail":"assets/Image placeholder.png",
+        "criteria": [
+          "Criteria 1",
+          "Criteria 2",
+          "Criteria 3"
+        ]
+      },
+       {
+        "title": "Theater Title 3",
+        "thumbnail":"assets/Image placeholder.png",
+        "criteria": [
+          "Criteria 1",
+          "Criteria 2",
+          "Criteria 3"
+        ]
+      },
+       {
+        "title": "Theater Title 4",
+        "thumbnail":"assets/Image placeholder.png",
+        "criteria": [
+          "Criteria 1",
+          "Criteria 2",
+          "Criteria 3"
+        ]
+      },
+       {
+        "title": "Theater Title 5",
+        "thumbnail":"assets/Image placeholder.png",
+        "criteria": [
+          "Criteria 1",
+          "Criteria 2",
+          "Criteria 3"
+        ]
+      },
+       {
+        "title": "Theater Title 6",
+        "thumbnail":"assets/Image placeholder.png",
+        "criteria": [
+          "Criteria 1",
+          "Criteria 2",
+          "Criteria 3"
+        ]
+      },
+       {
+        "title": "Theater Title 7",
+        "thumbnail":"assets/Image placeholder.png",
+        "criteria": [
+          "Criteria 1",
+          "Criteria 2",
+          "Criteria 3"
+        ]
+      }
+    ],
+    "Commisioned Student Production, directing": [
+      {
+        "title": "Play Title 1",
+        "criteria": [
+          "Criteria 1",
+          "Criteria 2",
+          "Criteria 3"
+        ]
+      },
+      {
+        "title": "Play Title 2",
+        "criteria": [
+          "Criteria 1",
+          "Criteria 2",
+          "Criteria 3"
+        ]
+      }
+    ],
+    "staged readings, directing": [
+        {
+          "title": "Theater Title 1",
+          "criteria": [
+            "Criteria 1",
+            "Criteria 2",
+            "Criteria 3"
+          ]
+        },
+        {
+          "title": "Theater Title 2",
+          "criteria": [
+            "Criteria 1",
+            "Criteria 2",
+            "Criteria 3"
+          ]
+        }
+      ],
+      "theater productions, acting": [
+        {
+          "title": "Theater Title 1",
+          "criteria": [
+            "Criteria 1",
+            "Criteria 2",
+            "Criteria 3"
+          ]
+        },
+        {
+          "title": "Theater Title 2",
+          "criteria": [
+            "Criteria 1",
+            "Criteria 2",
+            "Criteria 3"
+          ]
+        }
+      ],
+      "staged readings, acting": [
+        {
+          "title": "Theater Title 1",
+          "criteria": [
+            "Criteria 1",
+            "Criteria 2",
+            "Criteria 3"
+          ]
+        },
+        {
+          "title": "Theater Title 2",
+          "criteria": [
+            "Criteria 1",
+            "Criteria 2",
+            "Criteria 3"
+          ]
+        }
+      ],
+      "international tours and productions": [
+        {
+          "title": "Theater Title 1",
+          "criteria": [
+            "Criteria 1",
+            "Criteria 2",
+            "Criteria 3"
+          ]
+        },
+        {
+          "title": "Theater Title 2",
+          "criteria": [
+            "Criteria 1",
+            "Criteria 2",
+            "Criteria 3"
+          ]
+        }
+      ],
+      "dramaturgy": [
+        {
+          "title": "Theater Title 1",
+          "criteria": [
+            "Criteria 1",
+            "Criteria 2",
+            "Criteria 3"
+          ]
+        },
+        {
+          "title": "Theater Title 2",
+          "criteria": [
+            "Criteria 1",
+            "Criteria 2",
+            "Criteria 3"
+          ]
+        }
+      ],
+      "translation work": [
+        {
+          "title": "Theater Title 1",
+          "criteria": [
+            "Criteria 1",
+            "Criteria 2",
+            "Criteria 3"
+          ]
+        },
+        {
+          "title": "Theater Title 2",
+          "criteria": [
+            "Criteria 1",
+            "Criteria 2",
+            "Criteria 3"
+          ]
+        }
+      ],
+      "press": [
+        {
+          "title": "Theater Title 1",
+          "criteria": [
+            "Criteria 1",
+            "Criteria 2",
+            "Criteria 3"
+          ]
+        },
+        {
+          "title": "Theater Title 2",
+          "criteria": [
+            "Criteria 1",
+            "Criteria 2",
+            "Criteria 3"
+          ]
+        }
+      ]
+  }

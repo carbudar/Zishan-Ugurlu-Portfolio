@@ -1,0 +1,212 @@
+body{
+    margin: 0;
+    box-sizing: border-box;
+    padding: 0;
+    width: 100vw;
+    overflow-x: hidden;
+    min-height: 100vh;
+
+}
+.header{
+    /* background-color: azure; */
+    position: absolute;
+    height: 7vh;
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    z-index: 100;
+    color: rgb(110, 110, 110);
+}
+
+.headerTitle{
+    /* background-color: rgb(153, 132, 105); */
+    height: 100%;
+    width: 50%;
+    place-self: center;
+    justify-items: flex-start;
+    padding-left: 2vw;
+}
+
+.navigationBar{
+    /* background-color: aqua; */
+    display: flex;
+    gap: 3vw;
+    height: 100%;
+    width: 50%;
+    justify-content: flex-end;
+    padding-right: 2vw;
+}
+
+.navigationBar h3:hover{
+    color: rgb(143, 18, 18);
+}
+
+#home-container{
+    /* background-color: antiquewhite; */
+    height: 100vh;
+    width: 100vw;
+    overflow-y: hidden;
+}
+
+#videoBackground video{
+    width: 100%;
+    height: auto;
+    object-fit: cover;
+    object-position: top;  
+}
+
+#videoBackgroundOverlay{
+    background-color: black;
+    position: absolute;
+    opacity: 40%;
+    top: 0;
+    height: 100%;
+    width: 100%;
+    z-index: 10;
+}
+
+#profile-container,
+#works-container{
+    position: absolute;
+    top:7vh;
+    min-height: 100vh;
+    height: auto;
+    width: 100vw;
+    /* background-color: antiquewhite; */
+    display: flex;
+    flex-direction: column;
+}
+
+#works-container{
+    /* background-color: aquamarine; */
+    padding-left: 2vw;
+    padding-right: 2vw;
+    box-sizing: border-box;
+}
+
+#profile-layout{
+    /* background-color: rgb(130, 199, 199); */
+    width: 60vw;
+    height: auto;
+    display: flex;
+    gap: 1vw;
+    place-self: center;
+}
+
+#profile-left,
+#profile-right{
+    /* background-color: azure; */
+    height: auto;
+    width: 30vw;
+    padding: 1vw;
+} 
+
+#profilePicture{
+    width: 80%;
+    height: auto;
+}
+#contacts{
+    line-height: 2vw;
+}
+
+#press{
+    display: flex;
+    flex-direction: column;
+    gap:3vw;
+
+}
+.works-gallery {
+/* background-color: aliceblue; */
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(18vw, 1fr));
+  gap: 1vw;
+  line-height: 10vh;
+  justify-items: center; 
+}
+
+.works-gallery img{
+    width: 15vw;
+    height: auto;
+}
+
+.gridItem {
+  position: relative;
+  overflow: hidden;
+}
+
+.gridItem img {
+  display: block;
+  width: 100%;
+  height: auto;
+}
+
+.projectInfoHover {
+  position: absolute;
+  inset: 0;
+  background: rgba(0, 0, 0, 0.7);
+  color: white;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  opacity: 0;
+  transition: opacity 0.3s ease;
+}
+
+.gridItem:hover .projectInfoHover {
+  opacity: 1;
+}
+.backBtn{
+    position: absolute;
+    left: 2vw;
+    top: 7vh;
+    text-align: left;
+    width: 100%;
+    
+}
+.backBtn:hover{
+    color: brown;
+}
+
+#details-container{
+    display: flex;
+    width: 80vw;
+    place-self: center;
+    align-items: center;
+    flex-direction: column;
+    padding-top: 13vh;
+    height: fit-content;
+}
+
+.projectVideo{
+    background-color: rgb(72, 72, 72);
+    height: 70vh;
+    width: 100%;
+    position: relative;
+}
+
+.informationHighlight{
+    height: auto;
+    width: 100%;
+    display: grid;
+    grid-template-columns: auto auto;
+    
+}
+
+.informationHighlightLeft,
+.informationHighlightRight{
+    height: 100%;
+    width: 100%;
+    line-height: 5vh;
+    padding-top: 0;
+}
+
+.informationHighlightLeft{
+}
+.informationHighlightRight{
+    text-align: right;
+}
+
+.projectDescription{
+    height: 50vh;
+    width: 100%;
+}
